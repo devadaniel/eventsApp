@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.event-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.image-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.image-item {
+  height: 200px;
+  width: 300px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.location {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
